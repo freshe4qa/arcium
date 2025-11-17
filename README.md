@@ -63,6 +63,14 @@ cd arcium-node-setup
 ```
 
 ```
+curl -sSfL https://solana-install.solana.workers.dev | bash
+```
+
+```
+cargo install --git https://github.com/coral-xyz/anchor avm --locked && avm install latest && avm use latest
+```
+
+```
 curl --proto '=https' --tlsv1.2 -sSfL https://arcium-install.arcium.workers.dev/ | bash
 ```
 
